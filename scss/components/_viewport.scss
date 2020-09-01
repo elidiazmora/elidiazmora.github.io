@@ -1,0 +1,26 @@
+@mixin media($size) {
+  @media (min-width: map-get($viewport, $size)) {
+    @content;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $gap;
+  padding-left: $gap;
+
+  @include media(small) {
+    padding-right: $gap-large;
+    padding-left: $gap-large;
+  }
+
+  @include media(large) {
+    max-width: map-get($viewport, medium);
+  }
+
+  @include media(extralarge) {
+    max-width: map-get($viewport, large);
+  }
+}

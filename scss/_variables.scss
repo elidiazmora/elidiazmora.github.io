@@ -1,0 +1,33 @@
+$font-family: "Assistant", sans-serif !default;
+$font-family-secondary: "Amalfi Coast" !default;
+$font-size: 18px !default;
+
+$color-bg: black !default;
+$color-bg-secondary: white !default;
+$color-text: #eeeeee !default;
+
+$viewport: (
+  small: 768px, 
+  medium: 992px, 
+  large: 1200px,
+  extralarge: 1920px
+) !default;
+
+$gap: 10px !default;
+$gap-large: 20px !default;
+$gap-large: 20px !default;
+
+$navbar-rows: 2 !default;
+
+$nav-height: 60px !default;
+
+$icon-size: 25px !default;
+$icon-size-large: 30px !default;
+$icons: (
+  "email": "../img/icons/email.png",
+  "github": "../img/icons/github.png",
+  "linkedin": "../img/icons/linkedin.png",
+  "instagram": "../img/icons/instagram.png",
+  "heart": "../img/icons/heart.png",
+) !default;
+

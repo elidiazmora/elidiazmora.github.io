@@ -1,0 +1,14 @@
+body {
+  background-color: $color-bg;
+  color: $color-text;
+}
+
+.bg {
+  &-default {
+    background-color: $color-bg;
+  }
+
+  &-secondary {
+    background-color: $color-bg-secondary;
+  }
+}

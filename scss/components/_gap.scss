@@ -1,0 +1,9 @@
+.gap {
+  padding-top: $gap;
+  padding-bottom: $gap;
+  
+  &-large {
+    padding-top: $gap * 5;
+    padding-bottom: $gap * 5;
+  }
+}

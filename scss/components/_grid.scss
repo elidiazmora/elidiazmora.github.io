@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: $gap;
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  @include media(small) {
+    grid-template-columns: auto auto auto;
+    grid-gap: $gap-large;
+  }
+
+  @include media(medium) {
+    grid-template-columns: auto auto auto auto;
+  }
+}

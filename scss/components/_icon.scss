@@ -1,0 +1,20 @@
+@each $name, $url in $icons {
+  .icon-#{$name} {
+    background-image: url($url);
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: $icon-size;
+  height: $icon-size;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.icon-emoji {
+  font-style: normal;
+  color: transparent;
+  text-shadow: 0 0 0 $color-text;
+}
